@@ -1,77 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
-header {
-  background-color: #1F2023;
-  display: flex;
-  padding: 1rem;
-  border-bottom: 1px solid gray;
-}
-header img {
-  width: 5rem;
-}
-header nav ul {
-  list-style-type: none;
-  display: flex;
-}
-header nav ul li {
-  margin: 10px;
-}
-header nav ul li #enlace-principal {
-  color: yellow;
-}
-header nav ul li a {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
+/* Error: The target selector was not found.
+ * Use "@extend ejemplo !optional" to avoid this error.
+ *    ,
+ * 11 |     @extend ejemplo;
+ *    |     ^^^^^^^^^^^^^^^
+ *    '
+ *   scss/utilities/_extend.scss 11:5  root stylesheet */
 
-footer {
-  background-color: red;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: The target selector was not found.\aUse "@extend ejemplo !optional" to avoid this error.\a    \2577 \a 11 \2502      @extend ejemplo;\a    \2502      ^^^^^^^^^^^^^^^\a    \2575 \a   scss/utilities/_extend.scss 11:5  root stylesheet';
 }
-
-body {
-  background-color: #1F2023;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 20px;
-}
-
-section a {
-  background-color: black;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
-}
-section h1 {
-  color: black;
-  font-family: "Open Sans", sans-serif;
-}
-
-.boton {
-  background-color: yellow;
-  font-size: 1rem;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.parrafo-ejemplo {
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
-}
-
-.parrafo-uno, .parrafo-dos {
-  color: red;
-  font-size: 10rem;
-}
-.parrafo-uno:hover, .parrafo-dos:hover {
-  background-color: blue;
-}
-
-/*# sourceMappingURL=style.css.map */
