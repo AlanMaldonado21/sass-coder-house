@@ -1,0 +1,11 @@
+.parrafo-uno{
+    color: red;
+    font-size: 10rem;
+    &:hover{
+        background-color: blue;
+    }
+}
+
+.parrafo-dos{
+    @extend .parrafo-uno;
+}

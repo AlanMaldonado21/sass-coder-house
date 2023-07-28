@@ -1,0 +1,8 @@
+.boton{
+    @include boton-amarillo();
+
+}
+
+.parrafo-ejemplo{
+    @include fuentes;
+}

@@ -1,0 +1,32 @@
+// SINTAXIS
+
+// @mixin nombre-del-mixin{
+//     propiedad: valor;
+//     otra-propiedad: valor;
+// }
+
+// a{
+//     @include nombreMixin
+// }
+
+// @mixin boton-amarillo{
+//     background-color: yellow;
+//     font-size: 2rem;
+//     color: $color-texto;
+// }
+
+@mixin boton-amarillo{
+    background-color: yellow;
+    font-size: 1rem;
+    color: $color-principal;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px
+}
+
+@mixin fuentes{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
